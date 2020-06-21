@@ -1,0 +1,83 @@
+/* Our Team */
+.section-team {
+  background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  .team-flex {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .team-title {
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+  }
+  .team-list {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background: $bg-color;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  .team-text {
+    padding-top: 30px;
+
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .text {
+    padding-top: 10px;
+
+    color: $title-text-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .item-icon {
+    background-color: $bg-color;
+
+    border-radius: 50%;
+    &:hover,
+    &:focus {
+      --color3: #f5f4fa;
+    }
+    &:hover,
+    &:focus {
+      background-color: $bg-color-accent;
+    }
+  }
+  .icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .team-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 28px;
+    padding-bottom: 36px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
